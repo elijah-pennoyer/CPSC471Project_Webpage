@@ -74,7 +74,7 @@
             $servername = "localhost";          //should be same for you
             $username = "root";                 //same here
             $password = "database";             //your localhost root password
-            $db = "Bank";                     //your database name
+            $db = "bank_database";                     //your database name
             
             $conn = new mysqli($servername, $username, $password, $db);
             
